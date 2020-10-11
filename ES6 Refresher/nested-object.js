@@ -5,6 +5,12 @@ const store = {
   ],
   count: 35,
   isAvailable: true,
+  address: {
+    street: "Pali",
+    city: "Mumbai",
+    pincode: "230532",
+  },
 };
 
 console.log(store.books[0].name);
+console.log(store.address);

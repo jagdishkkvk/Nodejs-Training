@@ -1,5 +1,11 @@
 const products = ["laptop", "mobile", "table", "charger", "fan"];
 
+//using forEach loop to loop through array
+products.forEach((p) => {
+  console.log("Using foreach:", p);
+});
+
+//for-of loop added in ES6 (works similar to foreach)
 for (const prod of products) {
   console.log(prod);
 }
