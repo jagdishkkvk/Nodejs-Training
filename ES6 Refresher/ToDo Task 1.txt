@@ -1,0 +1,7 @@
+Task 1:  
+
+Create an array of numbers and return a new array with square root 
+of every element.
+
+=======================================
+
