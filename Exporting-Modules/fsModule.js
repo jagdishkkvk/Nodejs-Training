@@ -1,4 +1,5 @@
 const fs = require("fs"); //includes the core module for handling files
+const sumModule = require("./sum");
 
 // synchronusly writes into file
 //fs.writeFileSync("file1.txt", "Welcome to Nodejs Training");
@@ -13,13 +14,5 @@ const fileWrite = fs.writeFile(
   }
 );
 
-const name = "Neha";
-
-//Exporting multiple things
-// exports.obj = {
-//   name: name,
-//   fileWrite: fileWrite,
-// };
-
-exports.name = name;
-exports.fileWrite = fileWrite;
+console.log("Sum is: ", sumModule.sum(3, 4));
+console.log("Name: ", sumModule.name);
