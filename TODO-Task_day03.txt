@@ -1,0 +1,12 @@
+TODO Task : Day 03
+Create an express application that takes product data(name, brand, price,description)
+from user (via forms) and writes the data into a JSON file "products.json".
+
+===============================
+Example: file should look like this:
+products.json 
+
+[
+        {name:"Laptop",brand:"hp",price:50000,desc:"14.5 inch screen"},
+        {name:"Mobile",brand:"Apple",price:67000,desc:"15.5 inch screen"},
+]
